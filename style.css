@@ -8,9 +8,18 @@ header{
     background-color: #1f2937;
 }
 
+img{
+    max-block-size: 200px;
+}
+
+.header{
+
+}
+
 #logo{
     font-size: 24px;
     color: #f9faf8;
+    font-weight: bold;
 }
 
 .links, a{
