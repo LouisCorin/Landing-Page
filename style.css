@@ -1,4 +1,6 @@
 body{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin: 0;
     margin: 0px;
     padding: 0px;
     color: #f9faf8;
@@ -6,14 +8,33 @@ body{
 
 header{
     background-color: #1f2937;
+    gap: 50px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 60px 60px 60px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.left_hero{
+    width: 300px;
 }
 
 img{
     max-block-size: 200px;
+
 }
 
 .header{
-
+    display: flex;
+    justify-content: space-between;
 }
 
 #logo{
@@ -26,12 +47,15 @@ img{
     font-size: 18px;
     color: #e5e8eb;
     text-decoration: none;
+    margin: 0px 0px 8px 0px;
 }
 
 h1{
     font-size: 48px;
     font-weight: bolder;
     color: #f9faf8;
+    margin: 0px;
+    padding: 0px;
 }
 
 h2{
@@ -58,6 +82,7 @@ h2{
 .bottom{
     background-color: #3882f6;
 }
+
 footer{
     background-color: #1f2937;
 
@@ -66,4 +91,11 @@ footer{
 button{
     background-color: #3882f6;
     color: #f9faf8;
+    border-radius: 7px;
+    margin: 0%;
+    padding: 0%;
+    width: 100px;
+    height: 30px;
+    font-weight: bold;
+    font-size: 15px
 }
