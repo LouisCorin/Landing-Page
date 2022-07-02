@@ -13,7 +13,6 @@ header{
     flex-direction: column;
     padding: 10px 60px 60px 60px;
     justify-content: center;
-    flex-wrap: wrap;
 }
 
 .hero{
@@ -24,17 +23,22 @@ header{
 }
 
 .left_hero{
-    width: 300px;
+    max-width: 500px;
 }
 
 img{
-    max-block-size: 200px;
-
+    max-width: 350px;
 }
 
 .header{
     display: flex;
     justify-content: space-between;
+    width: 870px;
+}
+
+#header{
+    display: flex;
+    justify-content: center;
 }
 
 #logo{
@@ -50,6 +54,11 @@ img{
     margin: 0px 0px 8px 0px;
 }
 
+.top{
+    margin: 0px;
+    padding: 30px 0px 30px 0px;
+}
+
 h1{
     font-size: 48px;
     font-weight: bolder;
@@ -58,22 +67,45 @@ h1{
     padding: 0px;
 }
 
+.subtext, .top{
+    text-align: center;
+    margin: 2px;
+}
+
+.img_text{
+    display: grid;
+    grid-template: repeat(2, 140px) / repeat(4, 140px);
+    grid-gap: 8px;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.img{
+    width: 140px;
+    height: 140px;
+    border: 2px solid #3882f6;
+    border-radius: 8px;
+}
+
 h2{
     font-size: 36px;
     color: #1f2937;
     font-weight: bolder;
+    margin: 0px;
 }
 
 .subtext{
     color: rgb(87, 86, 86);
 }
 
-.quote{
+.quote, figure{
     background-color: #e5e7eb;
     font-size: 36px;
     font-style: italic;
     color: #1f2937;
+    margin: 0px;
 }
+
 #caption{
     font-size: 18px;
     text-align-last: center;
