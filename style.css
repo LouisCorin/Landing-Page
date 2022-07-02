@@ -134,6 +134,8 @@ h2{
     border-radius: 7px;
     width: 700px;
     gap: 60px;
+    padding: 0 20px;
+    flex: 1 0 auto;
 }
 
 .container3{
@@ -147,8 +149,12 @@ h2{
     margin: 0px;
 }
 
-footer{
+.footer1{
     background-color: #1f2937;
+    position:absolute;
+    width:100%;
+    display: flex;
+    justify-content: center;
 
 }
 
